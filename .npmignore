@@ -1,0 +1,41 @@
+// ============================================
+// 3. .npmignore
+// ============================================
+# Source files
+*.ts
+*.tsx
+
+# Config files
+.eslintrc*
+.prettierrc*
+tsconfig.json
+
+# Test files
+__tests__
+*.test.js
+*.spec.js
+coverage/
+
+# Development files
+.vscode/
+.idea/
+*.log
+.DS_Store
+
+# Git files
+.git/
+.gitignore
+.github/
+
+# Documentation source
+docs/
+examples/
+
+# Build files
+*.tgz
+
+# Other
+.env
+.env.*
+node_modules/
+

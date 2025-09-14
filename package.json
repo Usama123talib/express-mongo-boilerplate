@@ -1,0 +1,48 @@
+{
+  "name": "express-mongo-boilerplate-generator",
+  "version": "1.0.0",
+  "description": "A production-ready boilerplate generator for Express.js and MongoDB with service layer architecture and Joi validation",
+  "main": "index.js",
+  "bin": {
+    "create-express-mongo-app": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "boilerplate",
+    "generator",
+    "starter",
+    "template",
+    "node",
+    "mongoose",
+    "rest-api",
+    "joi",
+    "service-layer",
+    "cli",
+    "scaffold"
+  ],
+  "author": "Usama Talib <talibusama1234@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Usama123talib/express-mongo-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Usama123talib/express-mongo-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Usama123talib/express-mongo-boilerplate#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.0.0",
+    "fs-extra": "^11.0.0",
+    "inquirer": "^8.2.5"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "preferGlobal": true
+}
